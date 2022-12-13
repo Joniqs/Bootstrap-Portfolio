@@ -1,10 +1,16 @@
+:root {
+    --color-primary: #fbe7ef;
+    --color-secondary:#080e2c;
+    --color-backround: #000000;
+}
+
 .btn {
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--color-primary);
     border-radius: 100px;
 }
 
 #bg-header {
-    background-color: #000000;
+    background-color: var(--color-backround);
     width: 100%;
     height: 100vh;
     background: url('../images/clouds_jumbotron.jpg');
@@ -19,11 +25,11 @@
 }
 
 hr {
-    background-color: #fbe7ef;
+    background-color: var(--color-primary);
 }
 
 nav a {
-    color: #fbe7ef !important;
+    color: var(--color-primary) !important;
     font-size: 24px !important;
     margin-right: 2vw;
 }
@@ -33,16 +39,42 @@ nav a {
 }
 
 nav a:hover {
-    color: black !important;
+    color: var(--color-backround) !important;
+    border-bottom: solid var(--color-backround) 2px;
 }
 
 .divider {
-    background-color: black !important;
+    background-color: var(--color-backround) !important;
     width: 30%;
 }
 
 .jumbotron {
     margin-bottom: 0;
 }
+
+#about {
+    background-color: var(--color-backround);
+    max-width: 100%;
+    height: 100vh;
+    background: url('../images/bg_aboutme.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    color: var(--color-primary);
+}
+
+#about p {
+    font-size: 26px;
+}
+
+.text-dark {
+    color: var(--color-secondary) !important;
+}
+
+.text-light {
+    color: var(--color-primary) !important;
+}
+
 
 
