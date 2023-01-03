@@ -195,3 +195,66 @@ nav a:hover {
 .text-light {
     color: var(--color-primary) !important;
 }
+
+/*////////////*/
+/* RESPONSIVE */
+/*////////////*/
+@media only screen and (max-width: 992px) {
+    nav a {
+        text-align: center;
+    }
+
+    nav a:hover {
+        color: var(--color-backround) !important;
+        border-bottom: none;
+    }
+
+    h1 {
+        font-size: 28px !important;
+    }
+    
+    h2 {
+        font-size: 26px !important;
+    }
+
+    h4 {
+        font-size: 22px !important;
+    }
+
+    p {
+        font-size: 18px !important;
+    }
+
+    #face {
+        width: 30% !important;
+        height: 30% !important;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        text-transform: uppercase;
+        border: 1px solid var(--color-primary);
+    }
+
+    .list-group-item {
+        font-size: 16px !important;
+        padding: 0.25rem 0.5rem !important;
+    }
+
+    .card {
+        width: 24rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+
+    #hide {
+        display: none;
+    }
+
+    #contact {
+        padding: 25px !important;
+    }
+}
