@@ -90,3 +90,30 @@ nav a:hover {
     border: none;
     color: var(--color-secondary);
 }
+
+/*///////////*/
+/*   WORK    */
+/*///////////*/
+.card {
+    border-radius: 5%;
+    transition: transform .2s;
+}
+
+.card:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 40vh;
+    background-color: var(--color-backround);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    object-position: 100% 0px;
+    color: var(--color-primary);
+    max-width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
