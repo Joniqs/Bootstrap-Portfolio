@@ -138,4 +138,33 @@ nav a:hover {
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     border: 0;
-}  
+}
+
+/*///////////*/
+/*  FOOTER   */
+/*///////////*/
+.social {
+    padding: 4rem 4rem;
+}
+
+.social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social a:active {
+    color: #fff;
+}
+
+.bg-black {
+    background-color: #000000 !important;
+}
