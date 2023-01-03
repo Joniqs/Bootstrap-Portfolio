@@ -7,7 +7,7 @@ Hello ! Welcome to my bootstrap portfolio website. I created this website to sho
 ## Demo
 ![Alt text](/assets/images/jonatan-kwiatkowski-portfolio-bootstrap-website.png "Bootstrap Portfolio")
 
-https://github.com/Joniqs/Bootstrap-Portfolio
+https://joniqs.github.io/Bootstrap-Portfolio/
 ## Installation
 
 You can install my project using git clone
